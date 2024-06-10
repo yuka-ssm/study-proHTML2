@@ -7,8 +7,6 @@ a{
     text-decoration: none;
 }
 
-
-
 .container{
     width: 1170px;
     padding: 0 15px;
@@ -16,8 +14,7 @@ a{
 }
 
 .top-wrapper{
-    padding-top: 180px;
-    padding-bottom: 100px;
+    padding-top: 180px 0 100px 0;
     background-image: url(https://prog-8.com/images/html/advanced/top.png);
     background-size: cover;
     color: white;
@@ -34,16 +31,12 @@ a{
     opacity: 0.7;
 }
 
-.btn{
-    padding: 8px 24px;
-    color: white;
-    display: inline-block;
-    opacity: 0.8;
-    border-radius: 4px;
+.btn-wrapper{
+    margin: 20px 0;
 }
 
-.btn:hover{
-    opacity: 1;
+.btn-wrapper p{
+    margin: 10px 0;
 }
 
 .signup{
@@ -59,14 +52,50 @@ a{
     background-color: #55acee;
 }
 
-.btn-wrapper{
-    margin: 20px 0;
+.btn{
+    padding: 8px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
 }
 
-.btn-wrapper p{
-    margin: 10px 0;
+
+.btn:hover{
+    opacity: 1;
 }
+
 
 .fa{
     margin-right: 5px;
+}
+
+header{
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+}
+
+.logo{
+    width: 124px;
+    margin-top: 20px;
+}
+
+.header-left{
+    float: left;
+}
+
+.header-right{
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header-right:hover{
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+.header-right a{
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
 }
